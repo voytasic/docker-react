@@ -6,8 +6,8 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-test('renders dupa', () => {
+test('renders save to reload text', () => {
   render(<App />);
-  const linkElement = screen.getByText(/dupa/i);
+  const linkElement = screen.getByText(/and save to reload/i);
   expect(linkElement).toBeInTheDocument();
 });
